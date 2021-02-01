@@ -10,8 +10,9 @@ str = 'Hello world'
 vowel = 0
 
 for x in str:
-    if x == 'a' or x == 'e' or x == 'i' or x == 'o' or x == 'u':
+    if x in "aeoiu":
+    # another way: if x == 'a' or x == 'e' or x == 'i' or x == 'o' or x == 'u': 
         vowel = vowel + 1
     else: 
-        vowel = vowel + 0
+        pass
 print (vowel)
