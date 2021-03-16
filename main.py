@@ -12,7 +12,8 @@ vowel = 0
 for x in str:
     if x in "aeoiu":
     # another way: if x == 'a' or x == 'e' or x == 'i' or x == 'o' or x == 'u': 
-        vowel = vowel + 1
+        #vowel = vowel + 1
+        vowel += 1
     else: 
         pass
 print (vowel)
